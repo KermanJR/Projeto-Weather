@@ -4,7 +4,7 @@ const btn = document.querySelector('#btn-search');
 function changeWeather(event){
     event.preventDefault();
     const search = document.querySelector('.container .form-background #search').value;
-    const url = ' http://api.weatherapi.com/v1/current.json?key=86a989715fc84969a4640123212511&q='+search+'&lang=pt';
+    const url = ' https://api.weatherapi.com/v1/current.json?key=86a989715fc84969a4640123212511&q='+search+'&lang=pt';
 
     const options = {
         method: 'GET',
