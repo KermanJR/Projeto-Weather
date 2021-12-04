@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto Temperatura</title>
+</head>
+<body>
+
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#" style="font-size: 22px; font-weight: 500;"><img src="cloudy.png" alt="" style="margin-right: 10px;">K-Weather</a></li>
+                <li><a href="#">Social</a></li>
+            </ul>
+        </nav>
+    </div><!--menu-->
+
+    <div class="container">
+        <div class="item">
+            <span class=""></span>
+            <span class="text"></span>  
+            <span class="text-city-mob"></span>     
+        </div>
+
+        <div class="item">
+            <span class=""></span>
+            <span class="text"></span>
+            <span class="text-city-mob"></span>
+        </div>
+
+        <div class="item">
+            <span class=""></span>
+            <span class="text"></span>
+            <span class="text-city-mob"></span>
+        </div>
+
+        <div class="item">
+            <span class=""></span>
+            <span class="text"></span>
+            <span class="text-city-mob"></span>
+        </div>
+
+
+    </div><!--container-->
+     
+    
+    <section class="container container-2">
+        <div class="box-1">
+            <h1>Pesquise o clima e temperatura por: </h1>
+            <ul>
+                <li>Nome do País: <img src="brasil.png" alt=""></li>
+
+                <li>Endereço de IP: <img src="ip-address.png" alt=""></li>
+
+                <li>Nome da Cidade: <img src="city.png" alt=""></li>
+
+                <li>Latitude e Longitude: <img src="equator.png" alt=""></li>
+
+            </ul>
+            
+
+            <h2>Digite aqui:</h2>
+            <input type="text" name="regiao" id="search" placeholder="Digite o nome...">
+            <input type="submit" value="Pesquisar" id="btn-search">
+        </div>
+
+        <div class="box-2">
+            <div class="background">
+
+                <div class="hot-desktop">
+                    <span class="sun-desktop"></span>
+                    <span class="sunx-desktop"></span>
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span>
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="cloudy-desktop">
+                    <span class="cloud-desktop"></span>
+                    <span class="cloudx-desktop"></span>
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span>
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="breezy-pn-desktop">
+                     <span class="cloudr-pn-desktop"></span>
+
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span>
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="breezy-2-cm-desktop">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li> 
+                    </ul>
+                    <span class="cloudr-2-cm-desktop"></span>  
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span>
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="breezy-3-cf-desktop">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li> 
+                    </ul>
+                   <!--<span class="cloudr-3-cf-desktop"></span>  
+                    <span class="cloudr-3-cf-desktop"></span>
+                   -->
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span> 
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="stormy-nv-desktop">
+                    <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
+                   
+                    <span class="stick"></span>
+                    <span class="stick2"></span>
+                    <span class="text-city"></span>
+                    <span class="graus-cel"></span>
+                    <span class="prev-text"></span>
+                </div>
+
+                <div class="night">
+                    <span class="moon"></span>
+                    <span class="spot1"></span>
+                    <span class="spot2"></span>
+                    <ul>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li> 
+                      </ul>
+                </div>
+                    
+            </div><!--background-->
+        </div><!--box-2-->
+
+        <div class="box-3">
+            <h1>Localização: </h1>
+            <nav class="loc">
+                <ul>
+                    <li>País: <input type="text" name="" id="cou-res"></li>
+                    <li>Região: <input type="text" name="" id="reg-res"></li>
+                    <li>Cidade: <input type="text" name="" id="city-res"></li>
+                    <li>Hora local: <input type="text" name="" id="local-res"></li>
+                </ul>
+            </nav>
+
+            <br>
+            <h1>Alertas: </h1>
+            <nav class="alertas">
+                <ul>
+                    <li><input type="text" name="" id="alertas"></li>
+                  
+                </ul>
+            </nav>
+        </div><!--box-3-->
+
+
+
+        <div class="box-4">
+            <h1>Condições: <label for="" class="img-condition"></label></h1>
+            <nav class="cond">
+                <ul>
+                    <li>Celsius: <input type="text" name="" id="cel-res"></li>
+                    <li>Farenheit: <input type="text" name="" id="far-res"></li>
+                    <li>Vel. do Vento: <input type="text" name="" id="vel_vento"></li>
+                    <li>Sensação Térmica: <input type="text" name="" id="sens_term"></li>
+                    <li>Humidade do ar: <input type="text" name="" id="hum-res"></li>
+                </ul>
+            </nav>
+
+            <h1>Qualidade do ar: <label for="" class="img-condition"></label></h1>
+            <nav class="quali-ar">
+                <ul>
+                    <li>Co: <input type="text" name="" id="co"></li>
+                    <li>No2: <input type="text" name="" id="no2"></li>
+                    <li>O3: <input type="text" name="" id="o3"></li>
+                    <li>So2: <input type="text" name="" id="so2"></li>
+                   
+                </ul>
+            </nav>
+        </div><!--box-3-->
+
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="info">
+                <a href="https://web.facebook.com/kerman.pereira/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt=""></a> 
+                <a href="https://www.instagram.com/kermanpereira/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt=""></a>
+                <a href="https://github.com/KermanJR"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt=""></a>
+              <a href="https://www.linkedin.com/in/kerman-mendes-4322401bb/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=""></a>
+           </div>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
